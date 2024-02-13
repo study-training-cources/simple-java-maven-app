@@ -27,6 +27,8 @@ set -x
 echo -e "\n+++\ncheck values START\n+++\n"
 echo "NAME is: ${NAME}"
 echo "VERSION is: ${VERSION}"
+echo "PATH is:$PATH"
+echo "USER ia: $USER"
 echo -e "\n+++\ncheck values END\n+++\n"
 
 
