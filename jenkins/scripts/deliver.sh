@@ -25,8 +25,8 @@ echo 'application (which Jenkins built using Maven) to the Jenkins UI.'
 set -x
 
 echo -e "\n+++\ncheck values START\n+++\n"
-echo ${NAME}
-echo ${VERSION}
+echo "NAME is: ${NAME}"
+echo "VERSION is: ${VERSION}"
 echo -e "\n+++\ncheck values END\n+++\n"
 
 
