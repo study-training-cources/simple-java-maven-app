@@ -1,6 +1,10 @@
 pipeline {
     
-     agent any
+    agent any
+    
+    options {
+        ansiColor('xterm')
+    }
 
 //    agent {
 //        docker {
