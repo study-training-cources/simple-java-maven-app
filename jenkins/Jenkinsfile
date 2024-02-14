@@ -6,6 +6,7 @@ pipeline {
         ansiColor('xterm')
     }
 
+// zak commented this lines to be able to run the pipeline
 //    agent {
 //        docker {
 //            image 'maven:3.9.0'
