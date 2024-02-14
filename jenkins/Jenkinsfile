@@ -1,11 +1,6 @@
 pipeline {
     
     agent any
-    
-    options {
-        ansiColor('xterm')
-    }
-
 // zak commented this lines to be able to run the pipeline
 //    agent {
 //        docker {
@@ -13,6 +8,12 @@ pipeline {
 //            args '-v /root/.m2:/root/.m2'
 //        }
 //    }
+
+    options {
+        ansiColor('xterm')
+    }
+
+
     stages {
         stage('Test color') {
             steps {
