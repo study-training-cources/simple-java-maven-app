@@ -1,6 +1,7 @@
 #!/usr/bin/env bash
 
 ### WORKING WITH MAVEN VERSION 3.8.6 and we will have issues if we used another version or run the pipeline from a Jenkins container
+### Maven version is in the file pom.xml
 
 echo 'The following Maven command installs your Maven-built Java application'
 echo 'into the local Maven repository, which will ultimately be stored in'
