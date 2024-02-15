@@ -40,5 +40,23 @@ pipeline {
                 sh './jenkins/scripts/deliver.sh'
             }
         }
+
+        stage("PipeLine Completed"){
+            steps{
+                echo "====++++executing PipeLine Completed++++===="
+            }
+            post{
+                // always{
+                //     echo "====++++always++++===="
+                // }
+                success{
+                    echo "====++++PipeLine Completed executed successfully++++===="
+                }
+                failure{
+                    echo "====++++PipeLine Completed execution failed++++===="
+                }
+        
+            }
+        }
     }
 }
